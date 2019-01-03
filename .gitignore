@@ -41,6 +41,7 @@ fpga/*
 !fpga/*.v
 !fpga/Makefile
 !fpga/fpga.ucf
+!fpga/*.pcf
 !fpga/xst_lf.scr
 !fpga/xst_hf.scr
 !fpga/go.bat

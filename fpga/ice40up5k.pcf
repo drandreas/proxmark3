@@ -1,0 +1,43 @@
+# Clock Sources
+set_io -nowarn pck0         20
+set_io -nowarn ck_1356meg   37
+set_io -nowarn ck_1356megb  35
+
+# 8bit ADC
+set_io -nowarn adc_d[0]     46
+set_io -nowarn adc_d[1]     47
+set_io -nowarn adc_d[2]     44
+set_io -nowarn adc_d[3]     48
+set_io -nowarn adc_d[4]     45
+set_io -nowarn adc_d[5]      2
+set_io -nowarn adc_d[6]      4
+set_io -nowarn adc_d[7]      3
+set_io -nowarn adc_clk       6
+set_io -nowarn adc_noe       9
+
+# Frequency Detector
+set_io -nowarn cross_hi     10
+set_io -nowarn cross_lo     11
+
+# SPI
+set_io -nowarn miso         14
+set_io -nowarn mosi         17
+set_io -nowarn spck         15
+
+# Synchronous Serial
+set_io -nowarn ssp_clk      36
+set_io -nowarn ssp_din      43
+set_io -nowarn ssp_dout     38
+set_io -nowarn ssp_frame    42
+
+# Driver Outputs
+set_io -nowarn pwr_hi       27
+set_io -nowarn pwr_lo       26
+set_io -nowarn pwr_oe1      28
+set_io -nowarn pwr_oe2      31
+set_io -nowarn pwr_oe3      32
+set_io -nowarn pwr_oe4      34
+
+# Miscellaneous
+set_io -nowarn dbg          25
+set_io -nowarn ncs          23
